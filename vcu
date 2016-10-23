@@ -1,0 +1,17 @@
+Connection=wireless
+Interface=wlp3s0
+Security='wpa-configsection'
+Description="vcu network"
+IP='dhcp'
+ESSID='VCU SafeNet Wireless'
+WPAConfigSection=(
+    'ssid="VCU SafeNet Wireless"'
+    'proto=RSN'
+    'key_mgmt=WPA-EAP'
+    'pairwise=CCMP'
+    'group=CCMP'
+    'eap=PEAP'
+    'identity="happersettjw"'
+    'password="Happ876J"'
+    'phase2="auth=MSCHAPV2"'
+)
